@@ -4,6 +4,7 @@ public class AxisBank extends BankInfo {
 	@Override
 	public void deposit(long amount) {
 		System.out.println("Amount deposited is "+amount);
+		System.out.println("Axis Bank is best");
 	}
 	public static void main(String[] args) {
 		AxisBank o=new AxisBank();
