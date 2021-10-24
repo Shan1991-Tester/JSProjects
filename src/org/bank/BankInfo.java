@@ -10,6 +10,7 @@ public class BankInfo {
 }
 	public void deposit(long amount) {
 	System.out.println("Deposit amount is"+amount);
+	System.out.println("Deposited high amount");
 
 	}
 }
